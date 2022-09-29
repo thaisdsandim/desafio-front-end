@@ -1,0 +1,88 @@
+{
+    "funcionarios": [
+      {
+        "foto": "src/assets/img/homem-oculos.png",
+        "nome": "Rodrigo Mota",
+        "cargo": "Front-end",
+        "admissao": "00/00/0000",
+        "telefone": "+55 (55) 55555-555"
+      },
+      {
+        "foto": "src/assets/img/mulher.png",
+        "nome": "Giovana L. Arruda",
+        "cargo": "Back-end",
+        "admissao": "00/00/0000",
+        "telefone": "+55 (55) 55555-555"
+      },
+      {
+        "foto": "src/assets/img/rapaz.png",
+        "nome": "Luciano Triumfo",
+        "cargo": "Designer",
+        "admissao": "00/00/0000",
+        "telefone": "+55 (55) 55555-555"
+      },
+      {
+        "foto": "src/assets/img/homem-oculos.png",
+        "nome": "Rodrigo Mota",
+        "cargo": "Front-end",
+        "admissao": "00/00/0000",
+        "telefone": "+55 (55) 55555-555"
+      },
+      {
+        "foto": "src/assets/img/mulher.png",
+        "nome": "Giovana L. Arruda",
+        "cargo": "Back-end",
+        "admissao": "00/00/0000",
+        "telefone": "+55 (55) 55555-555"
+      },
+      {
+        "foto": "src/assets/img/rapaz.png",
+        "nome": "Luciano Triumfo",
+        "cargo": "Designer",
+        "admissao": "00/00/0000",
+        "telefone": "+55 (55) 55555-555"
+      },
+      {
+        "foto": "src/assets/img/homem-oculos.png",
+        "nome": "Rodrigo Mota",
+        "cargo": "Front-end",
+        "admissao": "00/00/0000",
+        "telefone": "+55 (55) 55555-555"
+      },
+      {
+        "foto": "src/assets/img/mulher.png",
+        "nome": "Giovana L. Arruda",
+        "cargo": "Back-end",
+        "admissao": "00/00/0000",
+        "telefone": "+55 (55) 55555-555"
+      },
+      {
+        "foto": "src/assets/img/rapaz.png",
+        "nome": "Luciano Triumfo",
+        "cargo": "Designer",
+        "admissao": "00/00/0000",
+        "telefone": "+55 (55) 55555-555"
+      },
+      {
+        "foto": "src/assets/img/homem-oculos.png",
+        "nome": "Rodrigo Mota",
+        "cargo": "Front-end",
+        "admissao": "00/00/0000",
+        "telefone": "+55 (55) 55555-555"
+      },
+      {
+        "foto": "src/assets/img/mulher.png",
+        "nome": "Giovana L. Arruda",
+        "cargo": "Back-end",
+        "admissao": "00/00/0000",
+        "telefone": "+55 (55) 55555-555"
+      },
+      {
+        "foto": "src/assets/img/rapaz.png",
+        "nome": "Luciano Triumfo",
+        "cargo": "Designer",
+        "admissao": "00/00/0000",
+        "telefone": "+55 (55) 55555-555"
+      }
+    ]
+  }
