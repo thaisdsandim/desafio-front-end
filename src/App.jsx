@@ -9,7 +9,18 @@ import './assets/styles/app.css'
     estavam no figma */
 function Funcionarios({list = [] }){
 
-  return <div className='table'>
+  return <div>
+
+  <div className='table-header'>
+    <h4>Funcionários</h4>
+    <div>
+      <input placeholder='Pesquisar' className='input'/>
+      <button className='submit-lente' type="submit">
+        <i className='fa fa-search'></i>
+      </button>
+    </div>
+  </div>
+
   <table>
     <thead>
       <tr>
@@ -61,9 +72,6 @@ function App() {
       <img src='src/assets/img/logo-bemobile.png'></img>
     </header>
     <main>
-      <div>
-      <h4>Funcionários</h4>
-      </div>
       <Funcionarios list={list}/>
     </main>
   </div>
