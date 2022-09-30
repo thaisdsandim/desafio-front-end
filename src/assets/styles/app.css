@@ -1,3 +1,4 @@
+/* GLOBAL */
 *{
     margin: 0;
     padding: 0;
@@ -6,6 +7,7 @@
     background-color: #F0F0F0;
 }
 
+/* APP - HEADER */
 header {
     background-color: #1C1C1C;
 }
@@ -19,6 +21,7 @@ header img {
     background-color: #1C1C1C;
 }
 
+/* APP - MAIN */
 main {
     background-color: #F0F0F0;
 }
@@ -32,6 +35,7 @@ main h4 {
     padding-left: 32px;
 }
 
+/* FUNCIONARIOS - TABLE */
 .table {
     margin-left: 32px;
     margin-right: 32px;

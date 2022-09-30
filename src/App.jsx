@@ -2,6 +2,11 @@ import React, { useEffect } from 'react'
 import { useState } from 'react'
 import './assets/styles/app.css'
 
+/* FUNÇÃO QUE ORGANIZA OS DADOS DOS FUNCIONARIOS EM UMA TABELA */
+
+/* Abri a função com uma list e organizei os dados que ia chamar
+    da fake API dentro da tabela de acordo com as posições que
+    estavam no figma */
 function Funcionarios({list = [] }){
 
   return <div className='table'>
@@ -32,6 +37,14 @@ function Funcionarios({list = [] }){
   </div>
 }
 
+/* FUNÇÃO QUE GERA O APP */
+
+/* Esta função já vem aberta por parametro, nela puxei a lista
+    que criei na função Funcionarios, depois chamei a fake API
+    que ia utilizar, então iniciei o retorno com as tags
+    semanticas, coloquei a logo da Be Mobile no header e a
+    tabela no main puxando com a função Funcionarios que
+    foi criada */
 function App() {
 
   const [list, setList] = useState([])
