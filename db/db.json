@@ -1,66 +1,73 @@
 {
     "funcionarios": [
       {
+        "foto": "https://user-images.githubusercontent.com/96362469/180337164-4f1136b9-98ef-4329-9924-7e6e77f3b124.png",
+        "nome": "Thais Sandim",
+        "cargo": "Front-end",
+        "admissao": "2022-10-13T00:00:00.000Z",
+        "telefone": "556781551239"
+      },
+      {
         "foto": "src/assets/img/homem-oculos.png",
         "nome": "Rodrigo Mota",
         "cargo": "Front-end",
-        "admissao": "0000-00-00T00:00:00Z",
+        "admissao": "2022-01-01T00:00:00.000Z",
         "telefone": "555555555555"
       },
       {
         "foto": "src/assets/img/mulher.png",
         "nome": "Giovana L. Arruda",
         "cargo": "Back-end",
-        "admissao": "0000-00-00T00:00:00Z",
+        "admissao": "2022-01-01T00:00:00.000Z",
         "telefone": "555555555555"
       },
       {
         "foto": "src/assets/img/rapaz.png",
         "nome": "Luciano Triumfo",
         "cargo": "Designer",
-        "admissao": "0000-00-00T00:00:00Z",
+        "admissao": "2022-01-01T00:00:00.000Z",
         "telefone": "555555555555"
       },
       {
         "foto": "src/assets/img/homem-oculos.png",
         "nome": "Rodrigo Mota",
         "cargo": "Front-end",
-        "admissao": "0000-00-00T00:00:00Z",
+        "admissao": "2022-01-01T00:00:00.000Z",
         "telefone": "555555555555"
       },
       {
         "foto": "src/assets/img/mulher.png",
         "nome": "Giovana L. Arruda",
         "cargo": "Back-end",
-        "admissao": "0000-00-00T00:00:00Z",
+        "admissao": "2022-01-01T00:00:00.000Z",
         "telefone": "555555555555"
       },
       {
         "foto": "src/assets/img/rapaz.png",
         "nome": "Luciano Triumfo",
         "cargo": "Designer",
-        "admissao": "0000-00-00T00:00:00Z",
+        "admissao": "2022-01-01T00:00:00.000Z",
         "telefone": "555555555555"
       },
       {
         "foto": "src/assets/img/homem-oculos.png",
         "nome": "Rodrigo Mota",
         "cargo": "Front-end",
-        "admissao": "0000-00-00T00:00:00Z",
+        "admissao": "2022-01-01T00:00:00.000Z",
         "telefone": "555555555555"
       },
       {
         "foto": "src/assets/img/mulher.png",
         "nome": "Giovana L. Arruda",
         "cargo": "Back-end",
-        "admissao": "0000-00-00T00:00:00Z",
+        "admissao": "2022-01-01T00:00:00.000Z",
         "telefone": "555555555555"
       },
       {
         "foto": "src/assets/img/rapaz.png",
         "nome": "Luciano Triumfo",
         "cargo": "Designer",
-        "admissao": "0000-00-00T00:00:00Z",
+        "admissao": "2022-01-01T00:00:00.000Z",
         "telefone": "555555555555"
       }  
     ]
