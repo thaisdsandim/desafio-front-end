@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 
 /* FUNÇÃO QUE ORGANIZA OS DADOS DOS FUNCIONARIOS EM UMA TABELA */
 
@@ -25,8 +25,8 @@ function Funcionarios({list = [] }){
             <td><img src={foto}/></td>
             <td>{nome}</td>
             <td>{cargo}</td>
-            <td>{admissao}</td>
-            <td>{telefone}</td>
+            <td>{new Date(admissao).toLocaleDateString('pt-BR', {timeZone: 'UTC'})}</td>
+            <td>{'+'+ telefone.substring(0,2) + ' ' + '(' + telefone.substring(2,4) + ')' + ' ' + telefone.substring(4,8) + '-' + telefone.substring(8,13)}</td>
           </tr>
         })
       }
