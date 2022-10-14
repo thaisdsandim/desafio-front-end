@@ -1,8 +1,7 @@
-import React, { useEffect, useState } from 'react';
-import Funcionarios from './components/Funcionarios';
-import Search from './components/Search';
-import './assets/styles/app.css';
-import axios from 'axios'
+import React, { useEffect, useState } from 'react'
+import Funcionarios from './components/Funcionarios'
+import Search from './components/Search'
+import './assets/styles/app.css'
 
 /* FUNÇÃO QUE GERA O APP */
 
