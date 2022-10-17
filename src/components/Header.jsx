@@ -2,10 +2,8 @@ import React from "react";
 
 function Header() {
   return (
-    <div>
-      <header>
-        <img src="src/assets/img/logo-bemobile.png"></img>
-      </header>
+    <div className="header">
+      <img src="src/assets/img/logo-bemobile.png"></img>
     </div>
   );
 }

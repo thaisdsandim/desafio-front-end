@@ -8,11 +8,11 @@
 }
 
 /* APP - HEADER */
-header {
+.header {
   background-color: #1c1c1c;
 }
 
-header img {
+.header img {
   width: 120px;
   height: 35px;
   margin-top: 12px;
