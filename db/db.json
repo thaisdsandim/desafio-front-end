@@ -4,50 +4,8 @@
       "photo": "https://user-images.githubusercontent.com/96362469/180337164-4f1136b9-98ef-4329-9924-7e6e77f3b124.png",
       "name": "Thais Sandim",
       "role": "Front-end Jr.",
-      "admission": "2022-10-17T00:00:00.000Z",
+      "admission": "2022-10-19T00:00:00.000Z",
       "phone": "556781551239"
-    },
-    {
-      "photo": "src/assets/img/homem-oculos.png",
-      "name": "Rodrigo Mota",
-      "role": "Front-end",
-      "admission": "2022-01-01T00:00:00.000Z",
-      "phone": "555555555555"
-    },
-    {
-      "photo": "src/assets/img/mulher.png",
-      "name": "Giovana L. Arruda",
-      "role": "Back-end",
-      "admission": "2022-01-01T00:00:00.000Z",
-      "phone": "555555555555"
-    },
-    {
-      "photo": "src/assets/img/rapaz.png",
-      "name": "Luciano Triumfo",
-      "role": "Designer",
-      "admission": "2022-01-01T00:00:00.000Z",
-      "phone": "555555555555"
-    },
-    {
-      "photo": "src/assets/img/homem-oculos.png",
-      "name": "Rodrigo Mota",
-      "role": "Front-end",
-      "admission": "2022-01-01T00:00:00.000Z",
-      "phone": "555555555555"
-    },
-    {
-      "photo": "src/assets/img/mulher.png",
-      "name": "Giovana L. Arruda",
-      "role": "Back-end",
-      "admission": "2022-01-01T00:00:00.000Z",
-      "phone": "555555555555"
-    },
-    {
-      "photo": "src/assets/img/rapaz.png",
-      "name": "Luciano Triumfo",
-      "role": "Designer",
-      "admission": "2022-01-01T00:00:00.000Z",
-      "phone": "555555555555"
     },
     {
       "photo": "src/assets/img/homem-oculos.png",
