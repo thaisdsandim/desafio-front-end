@@ -1,7 +1,9 @@
-import React, { useEffect, useState } from 'react'
-import Funcionarios from './components/Funcionarios'
-import Search from './components/Search'
-import './assets/styles/app.css'
+import React, { useEffect, useState } from "react";
+import Header from "./components/Header";
+import Employees from "./components/Employees";
+import Search from "./components/Search";
+import axios from "axios";
+import "./assets/styles/global.css";
 
 /* FUNÇÃO QUE GERA O APP */
 
@@ -12,29 +14,23 @@ import './assets/styles/app.css'
     tabela no main puxando com a função Funcionarios que
     foi criada */
 function App() {
-
-  const [list, setList] = useState([])
+  const [list, setList] = useState([]);
 
   useEffect(() => {
-    fetch('http://localhost:3000/funcionarios')
-    .then(async result => {
-        setList(await result.json())
-      })
-  }, [] )
+    axios.get("http://localhost:3000/employees").then((response) => {
+      setList(response.data);
+    });
+  }, []);
 
-  return <div>
-    <header>
-      <img src='src/assets/img/logo-bemobile.png'></img>
-    </header>
-    <main>
-      <div className='table-header'>
-        <h4>Funcionários</h4>
+  return (
+    <div>
+      <Header />
+      <main>
         <Search />
-      </div>
-      <Funcionarios list={list}/>
-    </main>
-  </div>
-
+        <Employees list={list} />
+      </main>
+    </div>
+  );
 }
 
-export default App
+export default App;
