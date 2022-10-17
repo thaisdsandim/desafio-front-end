@@ -1,13 +1,5 @@
 import React from "react";
 
-/* FUNÇÃO QUE ORGANIZA OS DADOS DOS FUNCIONARIOS EM UMA TABELA */
-
-/* Abri a função com a list que defini no App para gerenciar os
-dados da tabela e organizei esses dados que chamei da fake 
-API dentro da tabela de acordo com as posições que estavam
-no figma. A data de admissão formatei do formato padrão para
-o brasileiro, o telefone formatei passando separações de acordo
-com o tamanho de caracteres */
 function Employees({ list = [] }) {
   return (
     <div>
