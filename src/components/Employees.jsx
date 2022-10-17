@@ -1,4 +1,6 @@
 import React from "react";
+import phoneFormat from "../constants/phoneFormat";
+import admissionFormat from "../constants/admissionFormat";
 
 function Employees({ list = [] }) {
   return (
@@ -22,23 +24,8 @@ function Employees({ list = [] }) {
                 </td>
                 <td>{name}</td>
                 <td>{role}</td>
-                <td>
-                  {new Date(admission).toLocaleDateString("pt-BR", {
-                    timeZone: "UTC",
-                  })}
-                </td>
-                <td>
-                  {"+" +
-                    phone.substring(0, 2) +
-                    " " +
-                    "(" +
-                    phone.substring(2, 4) +
-                    ")" +
-                    " " +
-                    phone.substring(4, 8) +
-                    "-" +
-                    phone.substring(8, 13)}
-                </td>
+                <td>{admissionFormat(admission)}</td>
+                <td>{phoneFormat(phone)}</td>
               </tr>
             );
           })}
