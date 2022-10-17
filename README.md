@@ -37,7 +37,7 @@ To start the project, follow the steps below. If you are not familiar with the [
 # Install dependencies
 $ yarn
 # Execute the json-server
-$ yarn json-server --watch server.json
+$ yarn json-server --watch db/db.json
 ```
 - `03`: Start your project framework (either in React or Vanilla JS)
 
